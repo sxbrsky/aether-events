@@ -1,0 +1,31 @@
+{
+  "name": "aether/events",
+  "description": "The Aether events package.",
+  "license": "MIT",
+  "type": "library",
+  "support": {
+    "issues": "https://github.com/sxbrsky/aether/issues",
+    "source": "https://github.com/sxbrsky/aether"
+  },
+  "provide": {
+    "psr/event-dispatcher-implementation": "*"
+  },
+  "require": {
+    "php": "^8.2",
+    "psr/event-dispatcher": "^1.0"
+  },
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "Aether\\Events\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Aether\\Tests\\Events\\": "tests/"
+    }
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
